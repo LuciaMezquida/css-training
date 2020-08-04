@@ -12,25 +12,23 @@ body {
 }
 
 .top {
-    position: relative;
+    position: absolute;
     width: 35px;
     height: 40px;
     top: 41%;
     left: 48.1%;
     clip-path: polygon(0 79%, 0 17%, 81% 11%, 100% 27%, 100% 72%, 83% 88%);
-    background-color: orange;
-    opacity: 0.4;
+    background: linear-gradient(180deg, rgba(114,75,46,1) 0%, rgba(129,74,35,1) 15%, rgba(138,93,63,1) 27%, rgba(161,127,109,1) 43%, rgba(130,93,74,1) 70%, rgba(120,86,66,1) 88%, rgba(73,59,52,1) 100%);
 }
 
 .middle_before {
     position: absolute;
-    width: 106px;
+    width: 104px;
     height: 60px;
     top: 27%;
     left: 41.7%;
     clip-path: polygon(0 29%, 100% 35%, 100% 66%, 0 73%);
-    background-color: blue;
-    opacity: 0.8;
+    background: linear-gradient(90deg, rgba(126,94,77,1) 0%, rgba(126,85,64,1) 10%, rgba(125,82,63,1) 17%, rgba(113,71,50,1) 26%, rgba(117,82,62,1) 34%, rgba(106,64,40,1) 47%, rgba(114,81,63,1) 58%, rgba(114,82,64,1) 66%, rgba(102,77,66,1) 77%, rgba(124,90,74,1) 88%, rgba(111,74,55,1) 100%);
 }
 
 .middle {
@@ -40,20 +38,18 @@ body {
     top: 18%;
     left: 40.6%;
     clip-path: polygon(16% 21%, 31% 34%, 31% 67%, 22% 74%, 0 78%, 0 19%);
-    background-color: purple;
-    opacity: 0.5;
+    background: linear-gradient(90deg, rgba(126,94,77,1) 0%, rgba(126,85,64,1) 10%, rgba(125,82,63,1) 17%, rgba(113,71,50,1) 26%, rgba(117,82,62,1) 34%, rgba(106,64,40,1) 47%, rgba(114,81,63,1) 58%, rgba(114,82,64,1) 66%, rgba(102,77,66,1) 77%, rgba(124,90,74,1) 88%, rgba(111,74,55,1) 100%);
 }
 
 .bottom::before {
     content: "";
     width: 79px;
-    height: 60px;
+    height: 59px;
     top: -83%;
     left: 99%;
     position: absolute;
     clip-path: polygon(52% 22%, 85% 9%, 85% 83%, 56% 72%, 0 62%, 0 29%);
-    background-color: red;
-    opacity: 0.5;
+    background: linear-gradient(180deg, rgba(123,96,76,1) 0%, rgba(107,65,40,1) 10%, rgba(109,67,44,1) 23%, rgba(130,98,82,1) 34%, rgba(169,137,122,1) 43%, rgba(151,118,99,1) 48%, rgba(109,67,44,1) 57%, rgba(102,77,66,1) 73%, rgba(88,72,63,1) 100%);
 }
 
 .bottom {
@@ -62,8 +58,7 @@ body {
     position: absolute;
     top: 50%;
     left: 6.4%;
-    background-color: green;
-    opacity: 0.5;
+    background: linear-gradient(180deg, rgba(165,143,122,1) 0%, rgba(107,70,47,1) 12%, rgba(147,112,93,1) 27%, rgba(154,122,105,1) 41%, rgba(157,129,117,1) 58%, rgba(137,108,94,1) 67%, rgba(118,88,77,1) 80%, rgba(102,79,69,1) 90%, rgba(143,129,123,1) 100%);
 }
 
 .bottom:after {
@@ -72,8 +67,7 @@ body {
     height: 20px;
     position: absolute;
     left: -10.4%;
-    background-color: blue;
-    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(165,143,122,1) 0%, rgba(107,70,47,1) 12%, rgba(147,112,93,1) 27%, rgba(154,122,105,1) 41%, rgba(157,129,117,1) 58%, rgba(137,108,94,1) 67%, rgba(118,88,77,1) 80%, rgba(102,79,69,1) 90%, rgba(143,129,123,1) 100%);
     border-radius: 50% 5% 2% 50% / 36% 50% 50% 35%;
 }
 .handler {
@@ -82,20 +76,18 @@ body {
     height: 130px;
     top: -18px;
     left: 793px;
-    clip-path: polygon(0% 46%, 9% 40%, 21% 37%, 36% 38%, 48% 41%, 62% 44%, 73% 44%, 86% 43%, 98% 39%, 92% 49%, 55% 50%, 27% 50%, 0 51%);
-    background-color: rgb(255, 0, 149);
-    opacity: 0.8;
+    clip-path: polygon(0% 46%, 9% 40%, 21% 37%, 36% 38%, 48% 41%, 62% 44%, 73% 44%, 86% 43%, 95% 41%, 91% 51%, 55% 50%, 27% 50%, 0 51%);
+    background: linear-gradient(90deg, rgba(100,67,50,1) 0%, rgba(169,137,119,1) 3%, rgba(148,117,104,1) 9%, rgba(137,100,82,1) 15%, rgba(106,68,48,1) 27%, rgba(115,71,45,1) 50%, rgba(114,75,53,1) 64%, rgba(122,83,60,1) 76%, rgba(106,74,60,1) 94%, rgba(73,59,52,1) 100%);
 }
 
 .handler2 {
     position: absolute;
     width: 250px;
-    height: 127px;
-    top: -23px;
+    height: 138px;
+    top: -29px;
     left: 793px;
-    clip-path: polygon(0% 62%, 14% 67%, 35% 68%, 56% 67%, 74% 64%, 85% 63%, 92% 61%, 93% 56%, 86% 54%, 68% 54%, 36% 54%, 0% 54%);
-    background-color: rgb(72, 255, 0);
-    opacity: 0.8;
+    clip-path: polygon(0% 62%, 14% 67%, 35% 68%, 56% 67%, 74% 64%, 86% 67%, 91% 62%, 91% 57%, 89% 54%, 68% 54%, 36% 54%, 0% 54%);
+    background: linear-gradient(90deg, rgba(100,67,50,1) 0%, rgba(169,137,119,1) 3%, rgba(148,117,104,1) 9%, rgba(137,100,82,1) 15%, rgba(106,68,48,1) 27%, rgba(115,71,45,1) 50%, rgba(114,75,53,1) 64%, rgba(122,83,60,1) 76%, rgba(106,74,60,1) 94%, rgba(73,59,52,1) 100%);
 }
 
 .handler3 {
@@ -104,9 +96,8 @@ body {
     height: 127px;
     top: -22px;
     left: 792px;
-    clip-path: polygon(1% 67%, 9% 72%, 21% 76%, 32% 77%, 45% 75%, 57% 72%, 71% 69%, 81% 69%, 95% 71%, 86% 63%, 47% 62%, 0 61%);
-    background-color: rgb(0, 110, 255);
-    opacity: 0.8;
+    clip-path: polygon(1% 67%, 9% 73%, 21% 76%, 33% 77%, 45% 76%, 60% 73%, 77% 71%, 89% 72%, 91% 73%, 88% 63%, 47% 62%, 0 61%);
+    background: linear-gradient(90deg, rgba(100,67,50,1) 0%, rgba(169,137,119,1) 3%, rgba(148,117,104,1) 9%, rgba(137,100,82,1) 15%, rgba(106,68,48,1) 27%, rgba(115,71,45,1) 50%, rgba(114,75,53,1) 64%, rgba(122,83,60,1) 76%, rgba(106,74,60,1) 94%, rgba(73,59,52,1) 100%);
 }
 
 
