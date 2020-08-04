@@ -8,6 +8,16 @@ body {
     font-size: 16px;
 }
 
+h2 {
+    color: hsl(179, 62%, 43%);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+}
+
 .main_container{
     display: flex;
     width: 570px;
@@ -23,12 +33,6 @@ body {
     background: white;
     border-radius: 10px 10px 0 0;
     padding: 25px 40px 25px 40px;
-}
-
-.inner_container h2 {
-    color: hsl(179, 62%, 43%);
-    font-size: 21px;
-    font-weight: 700;
 }
 
 #second_p {
@@ -47,10 +51,6 @@ body {
 .box{
     display: flex;
     min-height: 240px;
-}
-
-.box h3 {
-    font-size: 16px;
 }
 
 .box_left{
