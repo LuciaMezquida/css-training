@@ -1,16 +1,25 @@
 .container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100vw;
+    height: 100vw;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-background-color: rgb(170, 168, 168);
+    background-color: rgb(170, 168, 168);
+    flex-basis: 5%;
+    text-align: center;
 }
 
 .main {
     background-color: gray;
+    padding: 20px;
+    flex-basis: 90%;
 }
 
 .footer {
     background-color: orange;
+    flex-basis: 5%;
+    text-align: center;
 }
