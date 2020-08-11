@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+background-color: rgb(170, 168, 168);
+}
+
+.main {
+    background-color: gray;
+}
+
+.footer {
+    background-color: orange;
+}
