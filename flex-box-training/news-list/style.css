@@ -1,0 +1,23 @@
+.main {
+    border: 1px solid black;
+    width: 480px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .second {
+    order: 1;
+    flex-basis: 50%;
+  }
+
+  .five {
+    order: 0;
+    flex-basis: 100%;
+  }
+
+  .five img {
+      margin-left: 120px;
+  }
