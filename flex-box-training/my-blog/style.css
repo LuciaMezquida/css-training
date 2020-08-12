@@ -33,7 +33,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 25px 0 25px 0;
+    padding: 30px 0 30px 0;
     font-size: 12px;
     color: gray;
 }
@@ -43,4 +43,31 @@
     width: 400px;
     margin: auto;
     text-align: justify;
+    color: gray;
+}
+
+.text h1 {
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-top: 2px solid rgb(227, 225, 225);
+    font-size: 13px;
+    color: rgb(227, 225, 225);
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: rgb(227, 225, 225);
+    padding-right: 15px;
 }
