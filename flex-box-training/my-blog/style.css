@@ -18,6 +18,10 @@
     padding: 13px;
 }
 
+.header h4 {
+    margin-right: 65px;
+}
+
 .nav1 a {
     text-decoration: none;
     color: white;
@@ -25,9 +29,18 @@
     font-size: 12px;
 }
 .autor {
+    width: 400px;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 25px 0 25px 0;
     font-size: 12px;
     color: gray;
+}
+
+
+.text {
+    width: 400px;
+    margin: auto;
+    text-align: justify;
 }
