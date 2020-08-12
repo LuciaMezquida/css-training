@@ -1,12 +1,13 @@
 * {
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
     width: 100vw;
     max-width: 600px;
     margin: auto;
+    margin-top: 70px;
 }
 
 .header {
@@ -14,5 +15,19 @@
     justify-content: space-evenly;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 13px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.autor {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0 25px 0;
+    font-size: 12px;
+    color: gray;
 }
