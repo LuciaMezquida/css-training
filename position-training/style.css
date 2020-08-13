@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 900px;
+    margin: auto;
+}
+
+.title {
+    width: 850px;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.text {
+    padding: 40px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.text p {
+    margin-bottom: 40px;
+}
