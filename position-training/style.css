@@ -20,6 +20,8 @@
 }
 
 .text {
+    position: relative;
+    top: 80px;
     padding: 40px;
     text-align: justify;
     line-height: 25px;
