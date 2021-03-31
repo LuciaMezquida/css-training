@@ -1,5 +1,5 @@
 body {
-   
+  
     /*background-image: url(https://assets.pinshape.com/uploads/image/file/267629/container_wand-of-luna-lovegood-from-the-movie-harry-potter-3d-printing-267629.jpg);
     background-repeat: no-repeat;*/
 }
@@ -15,18 +15,19 @@ body {
     position: absolute;
     width: 35px;
     height: 40px;
-    top: 41%;
-    left: 48.1%;
+    top: 33px;
+    left: 764px;
     clip-path: polygon(0 79%, 0 17%, 81% 11%, 100% 27%, 100% 72%, 83% 88%);
     background: linear-gradient(180deg, rgba(114,75,46,1) 0%, rgba(129,74,35,1) 15%, rgba(138,93,63,1) 27%, rgba(161,127,109,1) 43%, rgba(130,93,74,1) 70%, rgba(120,86,66,1) 88%, rgba(73,59,52,1) 100%);
+    z-index: 1;
 }
 
 .middle_before {
     position: absolute;
     width: 104px;
     height: 60px;
-    top: 27%;
-    left: 41.7%;
+    top: 22px;
+    left: 690px;
     clip-path: polygon(0 29%, 100% 35%, 100% 66%, 0 73%);
     background: linear-gradient(90deg, rgba(126,94,77,1) 0%, rgba(126,85,64,1) 10%, rgba(125,82,63,1) 17%, rgba(113,71,50,1) 26%, rgba(117,82,62,1) 34%, rgba(106,64,40,1) 47%, rgba(114,81,63,1) 58%, rgba(114,82,64,1) 66%, rgba(102,77,66,1) 77%, rgba(124,90,74,1) 88%, rgba(111,74,55,1) 100%);
 }
@@ -35,8 +36,8 @@ body {
     position: absolute;
     width: 64px;
     height: 77px;
-    top: 18%;
-    left: 40.6%;
+    top: 13px;
+    left: 671px;
     clip-path: polygon(16% 21%, 31% 34%, 31% 67%, 22% 74%, 0 78%, 0 19%);
     background: linear-gradient(90deg, rgba(126,94,77,1) 0%, rgba(126,85,64,1) 10%, rgba(125,82,63,1) 17%, rgba(113,71,50,1) 26%, rgba(117,82,62,1) 34%, rgba(106,64,40,1) 47%, rgba(114,81,63,1) 58%, rgba(114,82,64,1) 66%, rgba(102,77,66,1) 77%, rgba(124,90,74,1) 88%, rgba(111,74,55,1) 100%);
 }
@@ -45,8 +46,8 @@ body {
     content: "";
     width: 79px;
     height: 59px;
-    top: -83%;
-    left: 99%;
+    top: -17px;
+    left: 480px;
     position: absolute;
     clip-path: polygon(52% 22%, 85% 9%, 85% 83%, 56% 72%, 0 62%, 0 29%);
     background: linear-gradient(180deg, rgba(123,96,76,1) 0%, rgba(107,65,40,1) 10%, rgba(109,67,44,1) 23%, rgba(130,98,82,1) 34%, rgba(169,137,122,1) 43%, rgba(151,118,99,1) 48%, rgba(109,67,44,1) 57%, rgba(102,77,66,1) 73%, rgba(88,72,63,1) 100%);
@@ -56,8 +57,8 @@ body {
     width: 480px;
     height: 20px;
     position: absolute;
-    top: 50%;
-    left: 6.4%;
+    top: 40px;
+    left: 124px;
     background: linear-gradient(180deg, rgba(165,143,122,1) 0%, rgba(107,70,47,1) 12%, rgba(147,112,93,1) 27%, rgba(154,122,105,1) 41%, rgba(157,129,117,1) 58%, rgba(137,108,94,1) 67%, rgba(118,88,77,1) 80%, rgba(102,79,69,1) 90%, rgba(143,129,123,1) 100%);
 }
 
@@ -66,7 +67,7 @@ body {
     width: 52px;
     height: 20px;
     position: absolute;
-    left: -10.4%;
+    left: -50px;
     background: linear-gradient(180deg, rgba(165,143,122,1) 0%, rgba(107,70,47,1) 12%, rgba(147,112,93,1) 27%, rgba(154,122,105,1) 41%, rgba(157,129,117,1) 58%, rgba(137,108,94,1) 67%, rgba(118,88,77,1) 80%, rgba(102,79,69,1) 90%, rgba(143,129,123,1) 100%);
     border-radius: 50% 5% 2% 50% / 36% 50% 50% 35%;
 }
@@ -76,6 +77,7 @@ body {
     height: 130px;
     top: -18px;
     left: 793px;
+    z-index: 0;
     clip-path: polygon(0% 46%, 9% 40%, 21% 37%, 36% 38%, 48% 41%, 62% 44%, 73% 44%, 86% 43%, 95% 41%, 91% 51%, 55% 50%, 27% 50%, 0 51%);
     background: linear-gradient(90deg, rgba(100,67,50,1) 0%, rgba(169,137,119,1) 3%, rgba(148,117,104,1) 9%, rgba(137,100,82,1) 15%, rgba(106,68,48,1) 27%, rgba(115,71,45,1) 50%, rgba(114,75,53,1) 64%, rgba(122,83,60,1) 76%, rgba(106,74,60,1) 94%, rgba(73,59,52,1) 100%);
 }
